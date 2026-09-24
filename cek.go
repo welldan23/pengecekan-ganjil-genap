@@ -11,13 +11,6 @@ func main() {
 		fmt.Print("Masukkan angka : ")
 		fmt.Scan(&number)
 
-	// Branching untuk cek genap atau ganjil
-		if number%2 == 0 {
-		fmt.Println("itu bilangan Genap")
-		} else {
-		fmt.Println("itu bilangan Ganjil")
-		}
-
 	// Konfirmasi mau ulang atau tidak
 		fmt.Print("Cek lagi? (y/t) : ")
 		fmt.Scan(&pilihan)
